@@ -22,7 +22,7 @@ void setup() {
   meinebusse = new MidiBus[100];
 
   for(int i = 0; i < 100; i ++){
-    meinebusse[i] = new MidiBus(this, -1, -1); 
+    meinebusse[i] = new MidiBus(this, -1, -1,"bus"+i); 
   }
 
   MidiBus.list(); 
